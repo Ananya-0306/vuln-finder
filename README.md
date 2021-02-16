@@ -108,9 +108,6 @@ optional arguments:
               (disable by default)
   -t          Include tags matching a specific commit
 
-More info: https://github.com/cve-search/git-vuln-finder
-~~~
-
 
 # Patterns
 
@@ -235,26 +232,7 @@ $ pytest
 
 # License and author(s)
 
-This software is free software and licensed under the AGPL version 3.
+This software is free software and licensed under the GPL
 
-Copyright (c) 2019-2020 Alexandre Dulaunoy - https://github.com/adulau/
+Copyright (c) 2019-2020 Ananya  - https://github.com/Ananya-0306?tab=repositories
 
-
-# Acknowledgment
-
-- Thanks to [Jean-Louis Huynen](https://github.com/gallypette) for the discussions about the crypto vulnerability patterns.
-- Thanks to [Sebastien Tricaud](https://github.com/stricaud) for the discussions regarding native language, commit messages and external patterns.
-- Thanks to [Cedric Bonhomme](https://github.com/cedricbonhomme) to make git-vuln-finder a Python library, add tests and improve the overall installation process.
-
-
-# Contributing
-
-We welcome contributions for the software and especially additional vulnerability patterns. Every contributors will be added in the [AUTHORS file](./AUTHORS) and
-collectively own this open source software. The contributors acknowledge the [Developer Certificate of Origin](https://developercertificate.org/).
-
-
-# References
-
-- [Notes](https://gist.github.com/adulau/dce5a6ca5c65017869bb01dfee576303#file-finding-vuln-git-commit-messages-md)
-- https://csce.ucmss.com/cr/books/2017/LFS/CSREA2017/ICA2077.pdf (mainly using CVE referenced in the commit message) - archive (http://archive.is/xep9o)
-- https://asankhaya.github.io/pdf/automated-identification-of-security-issues-from-commit-messages-and-bug-reports.pdf (2 main regexps)
