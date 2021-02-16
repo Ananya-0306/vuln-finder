@@ -234,5 +234,5 @@ $ pytest
 
 This software is free software and licensed under the GPL
 
-Copyright (c) 2019-2020 Ananya  - https://github.com/Ananya-0306?tab=repositories
+Copyright (c) 2021 Ananya  - https://github.com/Ananya-0306?tab=repositories
 
